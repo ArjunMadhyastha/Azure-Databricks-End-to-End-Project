@@ -1,0 +1,83 @@
+{
+    "cluster_id": "0719-045356-9sa4u9o0",
+    "creator_user_name": "amadhyastha077@gmail.com",
+    "driver_healthy": false,
+    "cluster_name": "job-1026447126975223-run-221691492262123-Job_cluster",
+    "spark_version": "16.4.x-scala2.12",
+    "azure_attributes": {
+        "first_on_demand": 1,
+        "availability": "SPOT_WITH_FALLBACK_AZURE",
+        "spot_bid_max_price": -1
+    },
+    "node_type_id": "Standard_D4ds_v5",
+    "driver_node_type_id": "Standard_D4ds_v5",
+    "spark_env_vars": {
+        "PYSPARK_PYTHON": "/databricks/python3/bin/python3"
+    },
+    "autotermination_minutes": 0,
+    "enable_elastic_disk": true,
+    "disk_spec": {},
+    "cluster_source": "JOB",
+    "single_user_name": "amadhyastha077@gmail.com",
+    "enable_local_disk_encryption": false,
+    "instance_source": {
+        "node_type_id": "Standard_D4ds_v5"
+    },
+    "driver_instance_source": {
+        "node_type_id": "Standard_D4ds_v5"
+    },
+    "data_security_mode": "SINGLE_USER",
+    "runtime_engine": "PHOTON",
+    "effective_spark_version": "16.4.x-photon-scala2.12",
+    "assigned_principal": "user:amadhyastha077@gmail.com",
+    "release_version": "16.4.4",
+    "state": "TERMINATED",
+    "state_message": "Encountered Quota Exhaustion issue in your account:  databricks_error_message: The VM size you are specifying is not available. [details] QuotaExceeded: Operation could not be completed as it resul...",
+    "start_time": 1752900836292,
+    "terminated_time": 1752901005051,
+    "last_state_loss_time": 0,
+    "last_activity_time": 0,
+    "last_restarted_time": 1752900836292,
+    "num_workers": 8,
+    "default_tags": {
+        "Vendor": "Databricks",
+        "Creator": "amadhyastha077@gmail.com",
+        "ClusterName": "job-1026447126975223-run-221691492262123-Job_cluster",
+        "ClusterId": "0719-045356-9sa4u9o0",
+        "JobId": "1026447126975223",
+        "RunName": "End-To-End Pipeline"
+    },
+    "termination_reason": {
+        "code": "AZURE_QUOTA_EXCEEDED_EXCEPTION",
+        "type": "CLIENT_ERROR",
+        "parameters": {
+            "databricks_error_message": "The VM size you are specifying is not available. [details] QuotaExceeded: Operation could not be completed as it results in exceeding approved Total Regional Cores quota. Additional details - Deployment Model: Resource Manager, Location: uksouth, Current Limit: 4, Current Usage: 0, Additional Required: 32, (Minimum) New Limit Required: 32. Setup Alerts when Quota reaches threshold. Learn more at https://aka.ms/quotamonitoringalerting . Submit a request for Quota increase at https://aka.ms/ProdportalCRP/#blade/Microsoft_Azure_Capacity/UsageAndQuota.ReactView/Parameters/%7B%22subscriptionId%22:%228ec41630-c0b2-40e2-be0c-0aef441b3502%22,%22command%22:%22openQuotaApprovalBlade%22,%22quotas%22:[%7B%22location%22:%22uksouth%22,%22providerId%22:%22Microsoft.Compute%22,%22resourceName%22:%22cores%22,%22quotaRequest%22:%7B%22properties%22:%7B%22limit%22:32,%22unit%22:%22Count%22,%22name%22:%7B%22value%22:%22cores%22%7D%7D%7D%7D]%7D by specifying parameters listed in the ‘Details’ section for deployment to succeed. Please read more about quota limits at https://docs.microsoft.com/en-us/azure/azure-supportability/regional-quota-requests(OnDemand)",
+            "instance_id": "failed-b513d145-5617-4f82-9",
+            "azure_error_code": "QuotaExceeded",
+            "azure_error_message": "Operation could not be completed as it results in exceeding approved Total Regional Cores quota. Additional details - Deployment Model: Resource Manager, Location: uksouth, Current Limit: 4, Current Usage: 0, Additional Required: 32, (Minimum) New Limit Required: 32. Setup Alerts when Quota reaches threshold. Learn more at https://aka.ms/quotamonitoringalerting . Submit a request for Quota increase at https://aka.ms/ProdportalCRP/#blade/Microsoft_Azure_Capacity/UsageAndQuota.ReactView/Parameters/%7B%22subscriptionId%22:%228ec41630-c0b2-40e2-be0c-0aef441b3502%22,%22command%22:%22openQuotaApprovalBlade%22,%22quotas%22:[%7B%22location%22:%22uksouth%22,%22providerId%22:%22Microsoft.Compute%22,%22resourceName%22:%22cores%22,%22quotaRequest%22:%7B%22properties%22:%7B%22limit%22:32,%22unit%22:%22Count%22,%22name%22:%7B%22value%22:%22cores%22%7D%7D%7D%7D]%7D by specifying parameters listed in the ‘Details’ section for deployment to succeed. Please read more about quota limits at https://docs.microsoft.com/en-us/azure/azure-supportability/regional-quota-requests(OnDemand)"
+        }
+    },
+    "init_scripts_safe_mode": false,
+    "spec": {
+        "cluster_name": "job-1026447126975223-run-221691492262123-Job_cluster",
+        "spark_version": "16.4.x-scala2.12",
+        "azure_attributes": {
+            "first_on_demand": 1,
+            "availability": "SPOT_WITH_FALLBACK_AZURE",
+            "spot_bid_max_price": -1
+        },
+        "node_type_id": "Standard_D4ds_v5",
+        "custom_tags": {
+            "JobId": "1026447126975223",
+            "RunName": "End-To-End Pipeline"
+        },
+        "spark_env_vars": {
+            "PYSPARK_PYTHON": "/databricks/python3/bin/python3"
+        },
+        "autotermination_minutes": 0,
+        "enable_elastic_disk": true,
+        "data_security_mode": "SINGLE_USER",
+        "runtime_engine": "PHOTON",
+        "num_workers": 8
+    }
+}
