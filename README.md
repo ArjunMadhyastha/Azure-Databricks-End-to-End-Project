@@ -1,6 +1,6 @@
-# 📊 End-to-End Data Pipeline on Azure & Databricks with Medallion Architecture
+# End-to-End Data Pipeline on Azure & Databricks with Medallion Architecture
 
-## 🚀 Overview
+## Overview
 This project demonstrates an enterprise-grade, end-to-end data pipeline on **Azure** and **Databricks**, implementing the **Medallion Architecture (Bronze → Silver → Gold)** with real-time streaming, data transformations, and Slowly Changing Dimensions (SCD1 & SCD2) handling.
 
 It showcases best practices in building scalable, governed, and reliable data pipelines using cloud-native tools.
@@ -8,8 +8,8 @@ It showcases best practices in building scalable, governed, and reliable data pi
 ![Pipeline](https://github.com/ArjunMadhyastha/Azure-Databricks-End-to-End-Project/blob/39237d67896ea10d6198839f3cd86052b6140a46/End%20to%20End%20Pipeline.png)
 ---
 
-## 🏗️ Architecture
-### 🔷 Technologies Used:
+##  Architecture
+###  Technologies Used:
 - **Azure Storage Account** (ADLS Gen2) — for raw & processed data storage
 - **Azure Containers** — separate containers for `bronze`, `silver`, `gold`
 - **Azure Databricks**
@@ -24,7 +24,7 @@ It showcases best practices in building scalable, governed, and reliable data pi
 
 ---
 
-## 🔗 Workflow
+## Workflow
 1️⃣ **Provision Azure resources**
 - Created a **Storage Account** and containers: `bronze`, `silver`, `gold`.
 - Uploaded raw data to the `bronze` container.
